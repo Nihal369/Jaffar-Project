@@ -43,7 +43,8 @@
         <activity android:name="me.nihalismail.picpo.PostActivity" />
         <activity android:name="me.nihalismail.picpo.NewView" />
         <activity android:name="me.nihalismail.picpo.FindsView" />
-        <activity android:name="me.nihalismail.picpo.DisplayInfo"></activity>
+        <activity android:name="me.nihalismail.picpo.DisplayInfo" />
+        <activity android:name="me.nihalismail.picpo.ChatPage"></activity>
     </application>
 
 </manifest>

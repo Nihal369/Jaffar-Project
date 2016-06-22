@@ -27,6 +27,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.nihalismail.picpo.ChatPage;
+
 public class UsersList extends AppCompatActivity {
     ArrayList<String>userNames;
     ArrayAdapter<String> adapter;
@@ -40,7 +42,7 @@ public class UsersList extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i=new Intent(getApplicationContext(),UserFeed.class);
+                Intent i=new Intent(getApplicationContext(),ChatPage.class);
                 i.putExtra("username",userNames.get(position));
                 startActivity(i);
             }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:1-50:12
 	xmlns:android
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -34,7 +34,7 @@ ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\Androi
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:9:22-72
 application
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:11:5-47:19
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:11:5-48:19
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 	android:label
@@ -120,9 +120,13 @@ ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\Androi
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:45:19-64
 activity#me.nihalismail.picpo.DisplayInfo
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:9-78
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:9-69
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:19-66
+activity#me.nihalismail.picpo.ChatPage
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:9-75
+	android:name
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:19-63
 uses-sdk
 INJECTED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43

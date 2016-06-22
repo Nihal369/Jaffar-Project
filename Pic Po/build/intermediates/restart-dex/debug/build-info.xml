@@ -4,32 +4,45 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="93883809173787"
+    timestamp="98610370935467"
     token="7951873559822321433" >
 
     <task
         name="javac"
-        duration="1697" />
+        duration="1284" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="308" />
+        duration="123" />
     <task
         name="verifier"
-        duration="71" />
+        duration="25" />
 
     <artifact
         location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
         type="DEX" />
 
-    <build timestamp="93453686344254" >
+    <build timestamp="94726461964737" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="93883809173787" >
+    <build timestamp="97332734157550" >
+        <artifact
+            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="97465693580582" >
+        <artifact
+            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="98610370935467" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
             type="DEX" />
