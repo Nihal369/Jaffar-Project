@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.nihalismail.picpo.LostnFound">
+
+
+    <Button
+        android:id="@+id/emergencymail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@null"
+        android:onClick="emergencyEmail"
+        android:textSize="20dp"
+        android:text=" asish.shajan@gmail.com"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp" />
+
+    <Button
+        android:id="@+id/emergencyCall"
+        android:onClick="emergencyCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Emergency Contact: +919995795321"
+        android:layout_alignTop="@+id/emergencymail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:layout_centerHorizontal="true"
+        android:rowCount="2"
+        android:columnCount="3"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/lost"
+            android:onClick="goToLostActivity"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/found"
+            android:onClick="goToFound"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:id="@+id/imageView6"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/view"
+            android:onClick="gotToViewActivity"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/chat"
+            android:onClick="goToPost"
+            android:layout_row="1"
+            android:layout_column="1" />
+    </GridLayout>
+
+</RelativeLayout>
