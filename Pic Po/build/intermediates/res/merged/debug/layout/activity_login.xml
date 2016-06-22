@@ -50,19 +50,34 @@
         android:id="@+id/button"
         android:textStyle="bold"
         android:textSize="20dp"
+        android:layout_marginTop="20dp"
         android:onClick="onButtonClick"
-        android:layout_below="@+id/passwordField"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
+        android:layout_below="@+id/mobileNumberInput"
+        android:layout_alignRight="@+id/mobileNumberInput"
+        android:layout_alignEnd="@+id/mobileNumberInput" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp"
+        android:layout_marginBottom="10dp"
         android:onClick="onTextViewClick"
         android:textColor="#3D5AFE"
         android:id="@+id/textView"
-        android:layout_below="@+id/button"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Mobile number"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:id="@+id/mobileNumberInput"
+        android:visibility="invisible"
+        android:layout_below="@+id/passwordField"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_alignStart="@+id/passwordField" />
 </RelativeLayout>

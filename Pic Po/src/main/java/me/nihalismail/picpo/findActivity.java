@@ -35,6 +35,8 @@ public class findActivity extends AppCompatActivity {
         findIntent.putExtra("TypeFind","Find");
         String activeFindUser= ParseUser.getCurrentUser().getUsername();
         findIntent.putExtra("findUser",activeFindUser);
+        String mobileNumberFind=ParseUser.getCurrentUser().get("MobileNumber").toString();
+        findIntent.putExtra("findMobileNumber",mobileNumberFind);
         startActivity(findIntent);
     }
 

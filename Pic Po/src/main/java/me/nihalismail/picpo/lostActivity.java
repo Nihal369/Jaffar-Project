@@ -35,6 +35,8 @@ public class lostActivity extends AppCompatActivity {
         lostIntent.putExtra("lostSpinnerData",selectedInputOfLostSpinner);
         String activeLostUser=ParseUser.getCurrentUser().getUsername();
         lostIntent.putExtra("lostUser",activeLostUser);
+        String mobileNumberLost=ParseUser.getCurrentUser().get("MobileNumber").toString();
+        lostIntent.putExtra("lostMobileNumber",mobileNumberLost);
         startActivity(lostIntent);
     }
 

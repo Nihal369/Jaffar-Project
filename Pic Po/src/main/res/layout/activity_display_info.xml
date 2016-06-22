@@ -45,13 +45,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/displayMobileNumber" />
+            android:id="@+id/displayMobileNumber"
+            android:onClick="callUser"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/displayAddress" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chat"
+            android:id="@+id/imageView3"
+            android:onClick="goToChatActivity"
+            />
     </LinearLayout>
 
     <TextView

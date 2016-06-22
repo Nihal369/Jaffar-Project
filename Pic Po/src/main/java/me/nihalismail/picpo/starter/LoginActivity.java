@@ -32,32 +32,38 @@ public class LoginActivity extends Activity implements View.OnClickListener{
     {
         TextView textView=(TextView)findViewById(R.id.textView);
         Button button=(Button)findViewById(R.id.button);
+        EditText mobileNumberInput=(EditText)findViewById(R.id.mobileNumberInput);
         if(loginTag)
         {
             textView.setText("Login");
             button.setText("Sign Up");
+            mobileNumberInput.setVisibility(View.VISIBLE);
             loginTag=false;
         }
         else
         {
             textView.setText("Sign Up");
             button.setText("Login");
+            mobileNumberInput.setVisibility(View.INVISIBLE);
             loginTag=true;
         }
     }
 
     String userName=null;
     String password=null;
+    String mobileNumber=null;
     public void onButtonClick(View view)
     {
         //Log.i("Status",String.valueOf(loginTag));
         final Intent toUser=new Intent(getApplicationContext(),LostnFound.class);
         EditText userNameField = (EditText) findViewById(R.id.userNameField);
         EditText passwordField = (EditText) findViewById(R.id.passwordField);
+        final EditText mobileNumberInput=(EditText)findViewById(R.id.mobileNumberInput);
 /*      userNameField.setKeyListener((KeyListener) this);
         passwordField.setKeyListener((KeyListener) this);*/
         userName = userNameField.getText().toString();
         password = passwordField.getText().toString();
+        mobileNumber=mobileNumberInput.getText().toString();
         if(userName.equals("") || password.equals(""))
         {
             Toast.makeText(LoginActivity.this, "Username and password cannot be blank", Toast.LENGTH_SHORT).show();
@@ -92,6 +98,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
                         ParseUser user = new ParseUser();
                         user.setUsername(userName);
                         user.setPassword(password);
+                        user.put("MobileNumber",mobileNumber);
                         user.signUpInBackground(new SignUpCallback() {
                             @Override
                             public void done(ParseException e) {
@@ -101,6 +108,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
                                     finish();
                                 } else {
                                     Toast.makeText(LoginActivity.this, "Username already exists", Toast.LENGTH_SHORT).show();
+                                    Log.i("Hey Nihal",e.toString());
                                 }
                             }
                         });

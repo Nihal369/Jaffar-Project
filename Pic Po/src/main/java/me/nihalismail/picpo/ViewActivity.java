@@ -33,6 +33,7 @@ public class ViewActivity extends AppCompatActivity {
             String passedTypeLost = getIntent().getExtras().getString("TypeLost");
             String passedLostSpinner = getIntent().getExtras().getString("lostSpinnerData");
             String passedLostUser = getIntent().getExtras().getString("lostUser");
+            String passedMobileNumber=getIntent().getExtras().getString("lostMobileNumber");
 
         
 
@@ -51,6 +52,7 @@ public class ViewActivity extends AppCompatActivity {
             dataObject.put("Address", passedLostAddress);
             dataObject.put("Spinner", passedLostSpinner);
             dataObject.put("User", passedLostUser);
+            dataObject.put("MobileNumber",passedMobileNumber);
             ParseACL parseACL=new ParseACL();
             parseACL.setPublicReadAccess(true);
             dataObject.setACL(parseACL);
@@ -64,6 +66,7 @@ public class ViewActivity extends AppCompatActivity {
             final ArrayList<String>userList=new ArrayList<String>();
             final ArrayList<String>typeList=new ArrayList<String>();
             final ArrayList<String>spinnerList=new ArrayList<String>();
+            final ArrayList<String>mobileNumberList=new ArrayList<String>();
             final ArrayAdapter<String> viewAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemsList);
             ParseQuery<ParseObject> lostParseQuery = ParseQuery.getQuery("Lost");
             lostParseQuery.findInBackground(new FindCallback<ParseObject>() {
@@ -80,6 +83,7 @@ public class ViewActivity extends AppCompatActivity {
                                 spinnerList.add(String.valueOf(parseObject.get("Spinner")));
                                 typeList.add(String.valueOf(parseObject.get("Type")));
                                 companyList.add(String.valueOf(parseObject.get("Company")));
+                                mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
                             }
                         }
                         listView.setAdapter(viewAdapter);
@@ -105,6 +109,7 @@ public class ViewActivity extends AppCompatActivity {
                             spinnerList.add(String.valueOf(parseObject.get("Spinner")));
                             typeList.add(String.valueOf(parseObject.get("Type")));
                             companyList.add(String.valueOf(parseObject.get("Company")));
+                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
                         }
                     }
                     listView.setAdapter(viewAdapter);
@@ -122,6 +127,7 @@ public class ViewActivity extends AppCompatActivity {
                 i.putExtra("spinnerInfo",spinnerList.get(position));
                 i.putExtra("typeInfo",typeList.get(position));
                 i.putExtra("companyInfo",companyList.get(position));
+                i.putExtra("mobileInfo",mobileNumberList.get(position));
                 startActivity(i);
             }
         });

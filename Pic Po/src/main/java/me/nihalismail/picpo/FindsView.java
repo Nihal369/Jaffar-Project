@@ -32,11 +32,13 @@ public class FindsView extends AppCompatActivity {
         String passedTypeFind = getIntent().getExtras().getString("TypeFind");
         String passedFindSpinner = getIntent().getExtras().getString("findSpinnerData");
         String passedFindUser = getIntent().getExtras().getString("findUser");
+        String passedMobileNumber=getIntent().getExtras().getString("findMobileNumber");
         Log.i("Mavaxxx",passedFindColour);
         Log.i("Mavaxxx",passedFindCompany);
         Log.i("Mavaxxx",passedFindAddress);
         Log.i("Mavaxxx",passedTypeFind);
         Log.i("Mavaxxx",passedFindSpinner);
+        Log.i("Mavaxxx",passedMobileNumber);
         ParseObject dataObject = new ParseObject("Find");
         dataObject.put("Color", passedFindColour);
         dataObject.put("Company", passedFindCompany);
@@ -44,6 +46,7 @@ public class FindsView extends AppCompatActivity {
         dataObject.put("Address", passedFindAddress);
         dataObject.put("Spinner", passedFindSpinner);
         dataObject.put("User", passedFindUser);
+        dataObject.put("MobileNumber",passedMobileNumber);
         ParseACL parseACL=new ParseACL();
         parseACL.setPublicReadAccess(true);
         dataObject.setACL(parseACL);
@@ -58,6 +61,7 @@ public class FindsView extends AppCompatActivity {
         final ArrayList<String>userList=new ArrayList<String>();
         final ArrayList<String>typeList=new ArrayList<String>();
         final ArrayList<String>spinnerList=new ArrayList<String>();
+        final ArrayList<String>mobileNumberList=new ArrayList<String>();
         final ArrayAdapter<String> viewAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemsList);
         ParseQuery<ParseObject> lostParseQuery = ParseQuery.getQuery("Lost");
         lostParseQuery.findInBackground(new FindCallback<ParseObject>() {
@@ -69,12 +73,12 @@ public class FindsView extends AppCompatActivity {
                         for (ParseObject parseObject : objects) {
                             itemsList.add(String.valueOf(parseObject.get("Spinner") + " Lost"));
                             addressList.add(String.valueOf(parseObject.get("Address")));
-
                             colourList.add(String.valueOf(parseObject.get("Color")));
                             userList.add(String.valueOf(parseObject.get("User")));
                             spinnerList.add(String.valueOf(parseObject.get("Spinner")));
                             typeList.add(String.valueOf(parseObject.get("Type")));
                             companyList.add(String.valueOf(parseObject.get("Company")));
+                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
                         }
                     }
                     listView.setAdapter(viewAdapter);
@@ -94,7 +98,7 @@ public class FindsView extends AppCompatActivity {
                         {
                             itemsList.add(String.valueOf(parseObject.get("Spinner")+" Found"));
                             addressList.add(String.valueOf(parseObject.get("Address")));
-
+                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
                             colourList.add(String.valueOf(parseObject.get("Color")));
                             userList.add(String.valueOf(parseObject.get("User")));
                             spinnerList.add(String.valueOf(parseObject.get("Spinner")));
@@ -117,6 +121,7 @@ public class FindsView extends AppCompatActivity {
                 i.putExtra("spinnerInfo",spinnerList.get(position));
                 i.putExtra("typeInfo",typeList.get(position));
                 i.putExtra("companyInfo",companyList.get(position));
+                i.putExtra("mobileInfo",mobileNumberList.get(position));
                 startActivity(i);
             }
         });
