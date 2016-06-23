@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.nihalismail.picpo.starter">
+    package="me.jaffar.picpo.starter">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -36,15 +36,16 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name=".UsersList" />
         <activity android:name=".UserFeed" />
-        <activity android:name="me.nihalismail.picpo.LostnFound" />
-        <activity android:name="me.nihalismail.picpo.lostActivity" />
-        <activity android:name="me.nihalismail.picpo.findActivity" />
-        <activity android:name="me.nihalismail.picpo.ViewActivity" />
-        <activity android:name="me.nihalismail.picpo.PostActivity" />
-        <activity android:name="me.nihalismail.picpo.NewView" />
-        <activity android:name="me.nihalismail.picpo.FindsView" />
-        <activity android:name="me.nihalismail.picpo.DisplayInfo" />
-        <activity android:name="me.nihalismail.picpo.ChatPage"></activity>
+        <activity android:name="me.jaffar.picpo.LostnFound" />
+        <activity android:name="me.jaffar.picpo.lostActivity" />
+        <activity android:name="me.jaffar.picpo.findActivity" />
+        <activity android:name="me.jaffar.picpo.ViewActivity" />
+        <activity android:name="me.jaffar.picpo.PostActivity" />
+        <activity android:name="me.jaffar.picpo.NewView" />
+        <activity android:name="me.jaffar.picpo.FindsView" />
+        <activity android:name="me.jaffar.picpo.DisplayInfo" />
+        <activity android:name="me.jaffar.picpo.ChatPage" />
+        <activity android:name="me.jaffar.picpo.UploadLostImage"></activity>
     </application>
 
 </manifest>

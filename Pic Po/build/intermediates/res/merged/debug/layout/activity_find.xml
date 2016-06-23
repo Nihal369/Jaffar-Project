@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#00e676"
-    tools:context="me.nihalismail.picpo.findActivity">
+    tools:context="me.jaffar.picpo.findActivity">
 
 
     <TextView
@@ -50,6 +50,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/colorInputFound"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLines="1"
         android:hint="Color"
         android:layout_below="@+id/spinnerFound"
         android:layout_alignParentLeft="true"
@@ -58,7 +61,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPostalAddress"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:hint="Address"
         android:ems="10"
         android:id="@+id/addressInputFound"
@@ -68,6 +74,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:ellipsize="end"
         android:hint="Company"
         android:id="@+id/companyInputFound"
         android:layout_below="@+id/addressInputFound"
@@ -76,12 +86,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select"
+        android:text="Submit"
         android:background="#0277bd"
         android:id="@+id/button3"
         android:onClick="getFindDetails"
         android:layout_below="@+id/companyInputFound"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:onClick="uploadImage"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

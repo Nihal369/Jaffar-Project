@@ -8,12 +8,12 @@
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",

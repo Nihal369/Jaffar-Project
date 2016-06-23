@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:1-51:12
 	xmlns:android
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:3:5-43
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml
 	android:versionName
@@ -34,7 +34,7 @@ ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\Androi
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:9:22-72
 application
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:11:5-48:19
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:11:5-49:19
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 	android:label
@@ -59,7 +59,7 @@ ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\Androi
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:21:13-48
 	android:value
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:22:13-53
-activity#me.nihalismail.picpo.starter.MainActivity
+activity#me.jaffar.picpo.starter.MainActivity
 ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:24:9-33:20
 	android:label
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:26:13-45
@@ -77,56 +77,60 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:31:27-74
-activity#me.nihalismail.picpo.starter.LoginActivity
+activity#me.jaffar.picpo.starter.LoginActivity
 ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:34:9-36:74
 	android:theme
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:36:13-71
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:35:13-42
-activity#me.nihalismail.picpo.starter.UsersList
+activity#me.jaffar.picpo.starter.UsersList
 ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:37:9-47
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:37:19-44
-activity#me.nihalismail.picpo.starter.UserFeed
+activity#me.jaffar.picpo.starter.UserFeed
 ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:38:9-46
 	android:name
 		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:38:19-43
-activity#me.nihalismail.picpo.LostnFound
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:39:9-68
+activity#me.jaffar.picpo.LostnFound
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:39:9-63
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:39:19-65
-activity#me.nihalismail.picpo.lostActivity
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:40:9-70
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:39:19-60
+activity#me.jaffar.picpo.lostActivity
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:40:9-65
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:40:19-67
-activity#me.nihalismail.picpo.findActivity
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:41:9-70
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:40:19-62
+activity#me.jaffar.picpo.findActivity
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:41:9-65
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:41:19-67
-activity#me.nihalismail.picpo.ViewActivity
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:42:9-70
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:41:19-62
+activity#me.jaffar.picpo.ViewActivity
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:42:9-65
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:42:19-67
-activity#me.nihalismail.picpo.PostActivity
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:43:9-70
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:42:19-62
+activity#me.jaffar.picpo.PostActivity
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:43:9-65
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:43:19-67
-activity#me.nihalismail.picpo.NewView
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:44:9-65
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:43:19-62
+activity#me.jaffar.picpo.NewView
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:44:9-60
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:44:19-62
-activity#me.nihalismail.picpo.FindsView
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:45:9-67
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:44:19-57
+activity#me.jaffar.picpo.FindsView
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:45:9-62
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:45:19-64
-activity#me.nihalismail.picpo.DisplayInfo
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:9-69
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:45:19-59
+activity#me.jaffar.picpo.DisplayInfo
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:9-64
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:19-66
-activity#me.nihalismail.picpo.ChatPage
-ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:9-75
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:46:19-61
+activity#me.jaffar.picpo.ChatPage
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:9-61
 	android:name
-		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:19-63
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:47:19-58
+activity#me.jaffar.picpo.UploadLostImage
+ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:48:9-77
+	android:name
+		ADDED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml:48:19-65
 uses-sdk
 INJECTED from C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43

@@ -28,12 +28,12 @@
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",

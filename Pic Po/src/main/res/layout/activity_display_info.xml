@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#eeeeee"
-    tools:context="me.nihalismail.picpo.DisplayInfo">
+    tools:context="me.jaffar.picpo.DisplayInfo">
 
     <LinearLayout
         android:orientation="vertical"
@@ -62,6 +62,11 @@
             android:id="@+id/imageView3"
             android:onClick="goToChatActivity"
             />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:id="@+id/myImage" />
     </LinearLayout>
 
     <TextView

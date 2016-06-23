@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.nihalismail.picpo"
+    package="me.jaffar.picpo"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="me.nihalismail.picpo.starter.StarterApplication"
+        android:name="me.jaffar.picpo.starter.StarterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
             android:value="@string/parse_client_key" />
 
         <activity
-            android:name="me.nihalismail.picpo.starter.MainActivity"
+            android:name="me.jaffar.picpo.starter.MainActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
@@ -38,19 +38,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.nihalismail.picpo.starter.LoginActivity"
+            android:name="me.jaffar.picpo.starter.LoginActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <activity android:name="me.nihalismail.picpo.starter.UsersList" />
-        <activity android:name="me.nihalismail.picpo.starter.UserFeed" />
-        <activity android:name="me.nihalismail.picpo.LostnFound" />
-        <activity android:name="me.nihalismail.picpo.lostActivity" />
-        <activity android:name="me.nihalismail.picpo.findActivity" />
-        <activity android:name="me.nihalismail.picpo.ViewActivity" />
-        <activity android:name="me.nihalismail.picpo.PostActivity" />
-        <activity android:name="me.nihalismail.picpo.NewView" />
-        <activity android:name="me.nihalismail.picpo.FindsView" />
-        <activity android:name="me.nihalismail.picpo.DisplayInfo" />
-        <activity android:name="me.nihalismail.picpo.ChatPage" />
+        <activity android:name="me.jaffar.picpo.starter.UsersList" />
+        <activity android:name="me.jaffar.picpo.starter.UserFeed" />
+        <activity android:name="me.jaffar.picpo.LostnFound" />
+        <activity android:name="me.jaffar.picpo.lostActivity" />
+        <activity android:name="me.jaffar.picpo.findActivity" />
+        <activity android:name="me.jaffar.picpo.ViewActivity" />
+        <activity android:name="me.jaffar.picpo.PostActivity" />
+        <activity android:name="me.jaffar.picpo.NewView" />
+        <activity android:name="me.jaffar.picpo.FindsView" />
+        <activity android:name="me.jaffar.picpo.DisplayInfo" />
+        <activity android:name="me.jaffar.picpo.ChatPage" />
+        <activity android:name="me.jaffar.picpo.UploadLostImage" />
     </application>
 
 </manifest>
