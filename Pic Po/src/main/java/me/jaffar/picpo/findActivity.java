@@ -84,7 +84,7 @@ public class findActivity extends AppCompatActivity {
                 bitmap.compress(Bitmap.CompressFormat.PNG,100,stream);
                 byte[] byteArray=stream.toByteArray();
                 ParseFile file=new ParseFile("image.png",byteArray);
-                ParseObject object=new ParseObject("Image");
+                ParseObject object=new ParseObject("Images");
                 object.put("image", file);
                 object.put("type","find");
                 ParseACL parseACL=new ParseACL();

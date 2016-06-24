@@ -4,27 +4,27 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="80368764976409"
+    timestamp="80868255134733"
     token="7951873559822321433" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1426" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="164" />
     <task
         name="verifier"
-        duration="0" />
+        duration="13" />
 
     <artifact
         location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
         type="MAIN" />
 
-    <build timestamp="80368764976409" >
+    <build timestamp="80868255134733" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
             type="MAIN" />
