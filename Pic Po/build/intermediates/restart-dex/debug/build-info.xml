@@ -4,12 +4,12 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="84997598420043"
+    timestamp="85980833698174"
     token="7951873559822321433" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="702" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -24,29 +24,17 @@
         location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="80868255134733" >
+    <build timestamp="85590167416465" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="84078514067865" >
-        <artifact
-            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="84856539645466" >
+    <build timestamp="85936929966532" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="84905309747988"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\builds\debug\84905309747988\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="84997598420043" >
+    <build timestamp="85980833698174" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />

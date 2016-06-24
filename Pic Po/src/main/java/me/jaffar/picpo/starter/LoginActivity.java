@@ -69,6 +69,10 @@ public class LoginActivity extends Activity implements View.OnClickListener{
         {
             Toast.makeText(LoginActivity.this, "Username and password cannot be blank", Toast.LENGTH_SHORT).show();
         }
+        else if (password.length()<8)
+        {
+            Toast.makeText(LoginActivity.this, "Password should be atleast 8 characters", Toast.LENGTH_SHORT).show();
+        }
         else{
                 if (loginTag) {
                     ParseUser.logInInBackground(userName, password, new LogInCallback() {
