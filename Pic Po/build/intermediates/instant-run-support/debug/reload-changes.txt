@@ -1,5 +1,7 @@
-CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\DisplayInfo$1$override.class
-CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\DisplayInfo$1$1$override.class
-CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\DisplayInfo$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\NewView$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\NewView$2$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\ViewActivity$1$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\FindsView$1$override.class
 CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\findActivity$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\FindsView$override.class
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\me\jaffar\picpo\ViewActivity$override.class

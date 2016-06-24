@@ -32,13 +32,13 @@ public class FindsView extends AppCompatActivity {
         String passedTypeFind = getIntent().getExtras().getString("TypeFind");
         String passedFindSpinner = getIntent().getExtras().getString("findSpinnerData");
         String passedFindUser = getIntent().getExtras().getString("findUser");
-        String passedMobileNumber=getIntent().getExtras().getString("findMobileNumber");
-        Log.i("Mavaxxx",passedFindColour);
-        Log.i("Mavaxxx",passedFindCompany);
-        Log.i("Mavaxxx",passedFindAddress);
-        Log.i("Mavaxxx",passedTypeFind);
-        Log.i("Mavaxxx",passedFindSpinner);
-        Log.i("Mavaxxx",passedMobileNumber);
+        String passedMobileNumber = getIntent().getExtras().getString("findMobileNumber");
+        Log.i("Mavaxxx", passedFindColour);
+        Log.i("Mavaxxx", passedFindCompany);
+        Log.i("Mavaxxx", passedFindAddress);
+        Log.i("Mavaxxx", passedTypeFind);
+        Log.i("Mavaxxx", passedFindSpinner);
+        Log.i("Mavaxxx", passedMobileNumber);
         ParseObject dataObject = new ParseObject("Find");
         dataObject.put("Color", passedFindColour);
         dataObject.put("Company", passedFindCompany);
@@ -46,23 +46,25 @@ public class FindsView extends AppCompatActivity {
         dataObject.put("Address", passedFindAddress);
         dataObject.put("Spinner", passedFindSpinner);
         dataObject.put("User", passedFindUser);
-        dataObject.put("MobileNumber",passedMobileNumber);
-        ParseACL parseACL=new ParseACL();
+        dataObject.put("MobileNumber", passedMobileNumber);
+        ParseACL parseACL = new ParseACL();
         parseACL.setPublicReadAccess(true);
         dataObject.setACL(parseACL);
         dataObject.saveInBackground();
 
         //Lost class query
-        final ListView listView = (ListView) findViewById(R.id.findListView);
-        final ArrayList<String> itemsList = new ArrayList<String>();
-        final ArrayList<String>addressList=new ArrayList<String>();
-        final ArrayList<String>colourList=new ArrayList<String>();
-        final ArrayList<String>companyList=new ArrayList<String>();
-        final ArrayList<String>userList=new ArrayList<String>();
-        final ArrayList<String>typeList=new ArrayList<String>();
-        final ArrayList<String>spinnerList=new ArrayList<String>();
-        final ArrayList<String>mobileNumberList=new ArrayList<String>();
-        final ArrayAdapter<String> viewAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemsList);
+        final ListView listViewFind = (ListView) findViewById(R.id.findsViewListFound);
+        final ListView listViewLost = (ListView) findViewById(R.id.findsViewListLost);
+        final ArrayList<String> itemListLost = new ArrayList<String>();
+        final ArrayList<String> addressListLost = new ArrayList<String>();
+        final ArrayList<String> colourListLost = new ArrayList<String>();
+        final ArrayList<String> companyListLost = new ArrayList<String>();
+        final ArrayList<String> userListLost = new ArrayList<String>();
+        final ArrayList<String> typeListLost = new ArrayList<String>();
+        final ArrayList<String> spinnerListLost = new ArrayList<String>();
+        final ArrayList<String> mobileNumberListLost = new ArrayList<String>();
+        final ArrayAdapter<String> viewAdapterLost = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemListLost);
+
         ParseQuery<ParseObject> lostParseQuery = ParseQuery.getQuery("Lost");
         lostParseQuery.findInBackground(new FindCallback<ParseObject>() {
             @Override
@@ -71,20 +73,33 @@ public class FindsView extends AppCompatActivity {
                     Log.i("Mava", "Grabbed " + objects.size() + " objects");
                     if (objects.size() > 0) {
                         for (ParseObject parseObject : objects) {
-                            itemsList.add(String.valueOf(parseObject.get("Spinner") + " Lost"));
-                            addressList.add(String.valueOf(parseObject.get("Address")));
-                            colourList.add(String.valueOf(parseObject.get("Color")));
-                            userList.add(String.valueOf(parseObject.get("User")));
-                            spinnerList.add(String.valueOf(parseObject.get("Spinner")));
-                            typeList.add(String.valueOf(parseObject.get("Type")));
-                            companyList.add(String.valueOf(parseObject.get("Company")));
-                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
+                            itemListLost.add(String.valueOf(parseObject.get("Spinner") + " Lost"));
+                            addressListLost.add(String.valueOf(parseObject.get("Address")));
+                            colourListLost.add(String.valueOf(parseObject.get("Color")));
+                            userListLost.add(String.valueOf(parseObject.get("User")));
+                            spinnerListLost.add(String.valueOf(parseObject.get("Spinner")));
+                            typeListLost.add(String.valueOf(parseObject.get("Type")));
+                            companyListLost.add(String.valueOf(parseObject.get("Company")));
+                            mobileNumberListLost.add(String.valueOf(parseObject.get("MobileNumber")));
                         }
                     }
-                    listView.setAdapter(viewAdapter);
+                    listViewLost.setAdapter(viewAdapterLost);
                 }
+
             }
         });
+
+        //Find class query
+        final ArrayList<String> itemListFind = new ArrayList<String>();
+        final ArrayList<String>addressListFind=new ArrayList<String>();
+        final ArrayList<String>colourListFind=new ArrayList<String>();
+        final ArrayList<String>companyListFind=new ArrayList<String>();
+        final ArrayList<String>userListFind=new ArrayList<String>();
+        final ArrayList<String>typeListFind=new ArrayList<String>();
+        final ArrayList<String>spinnerListFind=new ArrayList<String>();
+        final ArrayList<String>mobileNumberListFind=new ArrayList<String>();
+        final ArrayAdapter<String> viewAdapterFind = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemListFind);
+
         ParseQuery<ParseObject>findParseQuery=ParseQuery.getQuery("Find");
         findParseQuery.findInBackground(new FindCallback<ParseObject>() {
             @Override
@@ -96,32 +111,48 @@ public class FindsView extends AppCompatActivity {
                     {
                         for(ParseObject parseObject:objects)
                         {
-                            itemsList.add(String.valueOf(parseObject.get("Spinner")+" Found"));
-                            addressList.add(String.valueOf(parseObject.get("Address")));
-                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
-                            colourList.add(String.valueOf(parseObject.get("Color")));
-                            userList.add(String.valueOf(parseObject.get("User")));
-                            spinnerList.add(String.valueOf(parseObject.get("Spinner")));
-                            typeList.add(String.valueOf(parseObject.get("Type")));
-                            companyList.add(String.valueOf(parseObject.get("Company")));
+                            itemListFind.add(String.valueOf(parseObject.get("Spinner")+" Found"));
+                            addressListFind.add(String.valueOf(parseObject.get("Address")));
+                            colourListFind.add(String.valueOf(parseObject.get("Color")));
+                            userListFind.add(String.valueOf(parseObject.get("User")));
+                            spinnerListFind.add(String.valueOf(parseObject.get("Spinner")));
+                            typeListFind.add(String.valueOf(parseObject.get("Type")));
+                            companyListFind.add(String.valueOf(parseObject.get("Company")));
+                            mobileNumberListFind.add(String.valueOf(parseObject.get("MobileNumber")));
                         }
                     }
-                    listView.setAdapter(viewAdapter);
+                    listViewFind.setAdapter(viewAdapterFind);
                 }
             }
         });
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listViewLost.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i=new Intent(getApplicationContext(),DisplayInfo.class);
-                i.putExtra("addressInfo",addressList.get(position));
-                i.putExtra("colourInfo",colourList.get(position));
-                i.putExtra("userInfo",userList.get(position));
-                i.putExtra("spinnerInfo",spinnerList.get(position));
-                i.putExtra("typeInfo",typeList.get(position));
-                i.putExtra("companyInfo",companyList.get(position));
-                i.putExtra("mobileInfo",mobileNumberList.get(position));
+                i.putExtra("addressInfo",addressListLost.get(position));
+                i.putExtra("colourInfo",colourListLost.get(position));
+                i.putExtra("userInfo",userListLost.get(position));
+                i.putExtra("spinnerInfo",spinnerListLost.get(position));
+                i.putExtra("typeInfo",typeListLost.get(position));
+                i.putExtra("companyInfo",companyListLost.get(position));
+                i.putExtra("mobileInfo",mobileNumberListLost.get(position));
+                i.putExtra("positionInfo",position);
+                startActivity(i);
+            }
+        });
+
+        listViewFind.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i=new Intent(getApplicationContext(),DisplayInfo.class);
+                i.putExtra("addressInfo",addressListFind.get(position));
+                i.putExtra("colourInfo",colourListFind.get(position));
+                i.putExtra("userInfo",userListFind.get(position));
+                i.putExtra("spinnerInfo",spinnerListFind.get(position));
+                i.putExtra("typeInfo",typeListFind.get(position));
+                i.putExtra("companyInfo",companyListFind.get(position));
+                i.putExtra("mobileInfo",mobileNumberListFind.get(position));
                 i.putExtra("positionInfo",position);
                 startActivity(i);
             }

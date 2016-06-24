@@ -9,10 +9,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="me.jaffar.picpo.ViewActivity">
 
-    <ListView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/viewItemsList"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewListItemLost"
+            android:layout_weight="1"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewListItemFound"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
 </RelativeLayout>

@@ -70,7 +70,7 @@ public class DisplayInfo extends AppCompatActivity {
         mobileText.setText("Mobile:"+mobileNumberString);
 
         //Image <code>
-        final int tappedPosition=getIntent().getExtras().getInt("positionInfo");
+        /*final int tappedPosition=getIntent().getExtras().getInt("positionInfo");
 
         final ImageView lostAndFoundImage=(ImageView)findViewById(R.id.myImage);
 
@@ -98,6 +98,6 @@ public class DisplayInfo extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-        });
+        });*/
     }
 }
