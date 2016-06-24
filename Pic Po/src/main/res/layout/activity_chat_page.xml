@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/chatInput"
         android:layout_alignParentBottom="true"
+        android:inputType="text"
         android:imeOptions="actionNext"
         android:maxLines="1"
         android:layout_alignParentLeft="true"

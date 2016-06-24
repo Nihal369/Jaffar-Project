@@ -68,5 +68,36 @@ public class DisplayInfo extends AppCompatActivity {
         userText.setText("Username:"+userString);
         spinnerText.setText("Type:"+spinnerString);
         mobileText.setText("Mobile:"+mobileNumberString);
+
+        //Image <code>
+        final int tappedPosition=getIntent().getExtras().getInt("positionInfo");
+
+        final ImageView lostAndFoundImage=(ImageView)findViewById(R.id.myImage);
+
+        ParseQuery<ParseObject>parseQuery=new ParseQuery<ParseObject>("Images");
+        parseQuery.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                if(e==null) {
+                    if (objects.size() > 0) {
+                         {
+                             ParseObject object=objects.get(tappedPosition);
+                            ParseFile file = (ParseFile) object.get("image");
+                            file.getDataInBackground(new GetDataCallback() {
+                                @Override
+                                public void done(byte[] data, ParseException e) {
+                                    if (e == null) {
+                                        Bitmap image = BitmapFactory.decodeByteArray(data, 0, data.length);
+                                        lostAndFoundImage.setImageBitmap(image);
+                                    }
+                                }
+                            });
+                        }
+                    }
+                }else {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }

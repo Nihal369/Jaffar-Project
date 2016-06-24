@@ -96,6 +96,7 @@ public class NewView extends AppCompatActivity {
                 i.putExtra("typeInfo",typeList.get(position));
                 i.putExtra("companyInfo",companyList.get(position));
                 i.putExtra("mobileInfo",mobileNumberList.get(position));
+                i.putExtra("positionInfo",position);
                 startActivity(i);
             }
         });
