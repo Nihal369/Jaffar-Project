@@ -1621,7 +1621,7 @@ containing a value of this type.
         public static final int list_item=0x7f0c002a;
         public static final int media_actions=0x7f0c0086;
         public static final int middle=0x7f0c0015;
-        public static final int mobileNumberInput=0x7f0c006b;
+        public static final int mobileNumberInput=0x7f0c006c;
         public static final int multiply=0x7f0c001e;
         public static final int myImage=0x7f0c005a;
         public static final int never=0x7f0c0019;
@@ -1664,7 +1664,7 @@ containing a value of this type.
         public static final int text=0x7f0c008d;
         public static final int text2=0x7f0c008b;
         public static final int textSpacerNoButtons=0x7f0c0033;
-        public static final int textView=0x7f0c006c;
+        public static final int textView=0x7f0c006b;
         public static final int textView2=0x7f0c006d;
         public static final int textView3=0x7f0c006e;
         public static final int textView4=0x7f0c005c;

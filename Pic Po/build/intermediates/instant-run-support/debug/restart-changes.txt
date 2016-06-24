@@ -1,0 +1,1 @@
+CHANGED,C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\instantRun\debug\folders\1\5\main\me\jaffar\picpo\starter\LoginActivity.class
