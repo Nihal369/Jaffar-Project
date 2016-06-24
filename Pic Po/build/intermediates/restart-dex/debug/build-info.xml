@@ -4,21 +4,21 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="83736865401163"
+    timestamp="84078514067865"
     token="7951873559822321433" >
 
     <task
         name="javac"
-        duration="476" />
+        duration="1307" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="173" />
+        duration="198" />
     <task
         name="verifier"
-        duration="10" />
+        duration="18" />
 
     <artifact
         location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
@@ -39,7 +39,7 @@
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build timestamp="83736865401163" >
+    <build timestamp="84078514067865" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />

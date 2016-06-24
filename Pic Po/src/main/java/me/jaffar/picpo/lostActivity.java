@@ -84,7 +84,7 @@ public class lostActivity extends AppCompatActivity {
                 bitmap.compress(Bitmap.CompressFormat.PNG,100,stream);
                 byte[] byteArray=stream.toByteArray();
                 ParseFile file=new ParseFile("image.png",byteArray);
-                ParseObject object=new ParseObject("Images");
+                ParseObject object=new ParseObject("LostImage");
                 object.put("image", file);
                 object.put("type","lost");
                 ParseACL parseACL=new ParseACL();
