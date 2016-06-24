@@ -64,16 +64,16 @@
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_lost_image.xml",
-        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\src\\main\\res\\layout\\activity_upload_lost_image.xml"
-    },
-    {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_lost_image.xml",
+        "source": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\src\\main\\res\\layout\\activity_upload_lost_image.xml"
     },
     {
         "merged": "C:\\Users\\nihal\\Documents\\Github\\Lost-and-found\\Pic Po\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",

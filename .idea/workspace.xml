@@ -144,6 +144,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/nihalismail/picpo/starter/UsersList$3.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/nihalismail/picpo/starter/UsersList.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$drawable$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/LostnFound$override.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/ViewActivity$override.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/findActivity$override.class" afterPath="" />
@@ -165,6 +167,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/starter/R$styleable$override.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/starter/UserFeed$override.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/me/nihalismail/picpo/starter/UsersList$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/me/nihalismail/picpo/starter/BuildConfig.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/me/nihalismail/picpo/starter/LoginActivity$1.class" afterPath="" />
@@ -212,6 +215,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/src/main/java/me/nihalismail/picpo/starter/StarterApplication.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/src/main/java/me/nihalismail/picpo/starter/UserFeed.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/src/main/java/me/nihalismail/picpo/starter/UsersList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -237,8 +241,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" />
@@ -252,7 +254,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/Pic Po.iml" afterPath="$PROJECT_DIR$/Pic Po/Pic Po.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build.gradle" afterPath="$PROJECT_DIR$/Pic Po/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/Pic Po/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/blame/res/debug/multi/values-tr.json" />
@@ -675,7 +676,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="$PROJECT_DIR$/Pic Po/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/Pic Po/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_find.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_find.xml" />
@@ -684,7 +684,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_lostn_found.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_lostn_found.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_post.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_post.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_users_list.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_users_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_view.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_view.xml" />
     </list>
@@ -707,38 +706,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_login.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="ChatPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ChatPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49178645">
-              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-              <folding>
-                <element signature="e#272#305#0" expanded="true" />
-                <element signature="e#330#365#0" expanded="true" />
-                <element signature="e#391#426#0" expanded="true" />
-                <element signature="e#450#483#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/LoginActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="70" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2746#3357#0" expanded="true" />
-                <element signature="e#3356#3357#0" expanded="true" />
-                <element signature="e#3566#5121#0" expanded="true" />
-                <element signature="e#4326#5065#0" expanded="true" />
-                <element signature="e#5064#5065#0" expanded="true" />
-                <element signature="e#5120#5121#0" expanded="true" />
-              </folding>
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.123943664">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2388,7 +2381,6 @@
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_users_list.xml" />
         <option value="$PROJECT_DIR$/Pic Po/build.gradle" />
-        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ChatPage.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/MainActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/LostnFound.java" />
@@ -2412,6 +2404,7 @@
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/lostActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/LoginActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ChatPage.java" />
       </list>
     </option>
   </component>
@@ -2446,6 +2439,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2540,8 +2535,6 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2851,7 +2844,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66936207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2935,20 +2928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UserFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/DisplayInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2974,11 +2953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2293#2301#0" expanded="false" />
-            <element signature="e#2554#2562#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3010,25 +2984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UserFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_display_info.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3039,7 +2998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3050,7 +3008,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -3068,18 +3025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.901099">
           <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2637362">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3090,18 +3035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5384614">
           <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.901099">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3112,7 +3045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.901099">
           <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3123,7 +3055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3152,20 +3083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23638968">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ChatPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3198,31 +3115,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72112674">
-          <caret line="111" column="5" selection-start-line="70" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UserFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="11" selection-start-line="34" selection-start-column="8" selection-end-line="66" selection-end-column="11" />
-          <folding>
-            <element signature="e#1121#1134#0" expanded="false" />
-            <element signature="e#1293#2881#0" expanded="false" />
-            <element signature="e#2880#2881#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_find.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5996705">
           <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3233,7 +3129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.857143">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3244,7 +3139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="14.318682">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3255,7 +3149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6704312">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3266,7 +3159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6373625">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3277,7 +3169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3285,7 +3176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3293,18 +3183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6146132">
           <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-          <folding>
-            <element signature="e#3040#3053#0" expanded="false" />
-            <element signature="e#3108#4295#0" expanded="false" />
-            <element signature="e#3586#4109#0" expanded="false" />
-            <element signature="e#4108#4109#0" expanded="false" />
-            <element signature="e#4294#4295#0" expanded="false" />
-            <element signature="e#4588#4601#0" expanded="false" />
-            <element signature="e#4656#5843#0" expanded="false" />
-            <element signature="e#5134#5657#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5842#5843#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3312,7 +3190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.287966">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3320,7 +3197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3328,7 +3204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1819484">
           <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3344,7 +3219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7397034">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3355,43 +3229,62 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="16.190475">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="70" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2746#3357#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-            <element signature="e#3566#5121#0" expanded="true" />
-            <element signature="e#4326#5065#0" expanded="true" />
-            <element signature="e#5064#5065#0" expanded="true" />
-            <element signature="e#5120#5121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49178645">
           <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-          <folding>
-            <element signature="e#272#305#0" expanded="true" />
-            <element signature="e#330#365#0" expanded="true" />
-            <element signature="e#391#426#0" expanded="true" />
-            <element signature="e#450#483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030985916">
+          <caret line="73" column="70" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ChatPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30492812">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.123943664">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

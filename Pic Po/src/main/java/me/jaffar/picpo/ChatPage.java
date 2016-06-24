@@ -2,6 +2,7 @@ package me.jaffar.picpo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -67,6 +68,7 @@ public class ChatPage extends AppCompatActivity {
                 }
             }
         });
+        userInput.setText("");
     }
 
     @Override
@@ -77,8 +79,8 @@ public class ChatPage extends AppCompatActivity {
         String activeUserName = i.getStringExtra("username");
         Log.i("Status", activeUserName);
         setTitle("Chat with " + activeUserName);
-        String loggedInUser = ParseUser.getCurrentUser().getUsername();
-        String currentUser = getIntent().getStringExtra("username");
+        final String loggedInUser = ParseUser.getCurrentUser().getUsername();
+        final String currentUser = getIntent().getStringExtra("username");
         final ArrayList<String> messagesArray = new ArrayList<String>();
         final ListView listView=(ListView)findViewById(R.id.chatListView);
         final ArrayAdapter<String>arrayAdapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,messagesArray);
