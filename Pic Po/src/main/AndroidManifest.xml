@@ -13,7 +13,8 @@
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        >
         <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="@string/parse_app_id" />
@@ -24,7 +25,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,15 +38,25 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name=".UsersList" />
         <activity android:name=".UserFeed" />
-        <activity android:name="me.jaffar.picpo.LostnFound" />
-        <activity android:name="me.jaffar.picpo.lostActivity" />
-        <activity android:name="me.jaffar.picpo.findActivity" />
-        <activity android:name="me.jaffar.picpo.ViewActivity" />
-        <activity android:name="me.jaffar.picpo.PostActivity" />
-        <activity android:name="me.jaffar.picpo.NewView" />
-        <activity android:name="me.jaffar.picpo.FindsView" />
-        <activity android:name="me.jaffar.picpo.DisplayInfo" />
-        <activity android:name="me.jaffar.picpo.ChatPage" />
+        <activity android:name="me.jaffar.picpo.LostnFound"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="me.jaffar.picpo.lostActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.findActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.ViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.PostActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.NewView"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.FindsView"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.DisplayInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name="me.jaffar.picpo.ChatPage"
+            android:screenOrientation="portrait"/>
         <activity android:name="me.jaffar.picpo.UploadLostImage"></activity>
     </application>
 
