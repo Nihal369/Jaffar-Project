@@ -65,4 +65,47 @@ public class findActivity extends AppCompatActivity {
         ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, spinnerArray);
         spinner.setAdapter(spinnerArrayAdapter);
     }
+
+    public void uploadImage(View view)
+    {
+        Intent i=new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        startActivityForResult(i, 1);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode==1 && resultCode==RESULT_OK && data!=null)
+        {
+            Uri selectedImage=data.getData();
+            try {
+                Bitmap bitmap=MediaStore.Images.Media.getBitmap(this.getContentResolver(),selectedImage);
+                Log.i("Status", "Image uploaded");
+                ByteArrayOutputStream stream=new ByteArrayOutputStream();
+                bitmap.compress(Bitmap.CompressFormat.PNG,100,stream);
+                byte[] byteArray=stream.toByteArray();
+                ParseFile file=new ParseFile("image.png",byteArray);
+                ParseObject object=new ParseObject("FindImage");
+                object.put("image", file);
+                object.put("type","find");
+                ParseACL parseACL=new ParseACL();
+                parseACL.setPublicReadAccess(true);
+                object.setACL(parseACL);
+                object.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if(e==null)
+                        {
+                            Toast.makeText(getApplication().getBaseContext(), "Image Uploaded :)", Toast.LENGTH_LONG).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplication().getBaseContext(), "Error,Please Try again :(", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }

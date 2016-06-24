@@ -4,30 +4,35 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="77404728700727"
+    timestamp="78647838086530"
     token="7951873559822321433" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1126" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="137" />
     <task
         name="verifier"
-        duration="0" />
+        duration="17" />
 
     <artifact
-        location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
-        type="MAIN" />
+        location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
 
     <build timestamp="77404728700727" >
         <artifact
             location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\outputs\apk\Pic Po-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="78647838086530" >
+        <artifact
+            location="C:\Users\nihal\Documents\Github\Lost-and-found\Pic Po\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

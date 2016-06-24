@@ -687,7 +687,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_user_feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_users_list.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_users_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_view.xml" afterPath="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Lost-and-found.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -707,40 +706,7 @@
     <favorites_list name="Lost-and-found" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="NewView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/NewView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7389671">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ViewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="117" selection-start-line="68" selection-start-column="117" selection-end-line="68" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindsView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/FindsView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2395,7 +2361,6 @@
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/FindsView.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/LostnFound.java" />
-        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/NewView.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/PostActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ViewActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_login.xml" />
@@ -2405,10 +2370,11 @@
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_find.xml" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_display_info.xml" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/DisplayInfo.java" />
-        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/findActivity.java" />
-        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/lostActivity.java" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_lost.xml" />
+        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/NewView.java" />
+        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/lostActivity.java" />
+        <option value="$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/findActivity.java" />
       </list>
     </option>
   </component>
@@ -2460,6 +2426,10 @@
               <option name="myItemId" value="Pic Po" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2469,14 +2439,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Pic Po" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picpo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2786,7 +2748,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2794,7 +2756,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2803,7 +2765,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49685535" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49685535" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2919,8 +2881,8 @@
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2294#2302#0" expanded="true" />
-            <element signature="e#2555#2563#0" expanded="true" />
+            <element signature="e#2293#2301#0" expanded="true" />
+            <element signature="e#2554#2562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3163,13 +3125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_upload_lost_image.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3224,25 +3179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/findActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/lostActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90544415">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2294#2302#0" expanded="true" />
-            <element signature="e#2555#2563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67741936">
@@ -3262,15 +3198,51 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/NewView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84131455">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2954#4166#0" expanded="true" />
+            <element signature="e#4165#4166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0450704">
+          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/FindsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8948357">
+          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_lost.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.452381">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.32135522">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/starter/UsersList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72112674">
+          <caret line="111" column="5" selection-start-line="70" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pic Po/src/main/res/layout/activity_find.xml">
@@ -3284,28 +3256,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/ViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/findActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="117" selection-start-line="68" selection-start-column="117" selection-end-line="68" selection-end-column="117" />
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/FindsView.java">
+    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/lostActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pic Po/src/main/java/me/jaffar/picpo/NewView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7389671">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.8760563">
+          <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2293#2301#0" expanded="true" />
+            <element signature="e#2554#2562#0" expanded="true" />
           </folding>
         </state>
       </provider>

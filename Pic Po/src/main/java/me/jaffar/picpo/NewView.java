@@ -35,29 +35,6 @@ public class NewView extends AppCompatActivity {
         final ArrayList<String>spinnerList=new ArrayList<String>();
         final ArrayList<String>mobileNumberList=new ArrayList<String>();
         final ArrayAdapter<String> viewAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList);
-        ParseQuery<ParseObject> lostParseQuery = ParseQuery.getQuery("Lost");
-        lostParseQuery.findInBackground(new FindCallback<ParseObject>() {
-            @Override
-            public void done(List<ParseObject> objects, ParseException e) {
-                if (e == null) {
-                    Log.i("Mava", "Grabbed " + objects.size() + " objects");
-                    if (objects.size() > 0) {
-                        for (ParseObject parseObject : objects) {
-                            itemList.add(String.valueOf(parseObject.get("Spinner") + " Lost"));
-                            addressList.add(String.valueOf(parseObject.get("Address")));
-                            colourList.add(String.valueOf(parseObject.get("Color")));
-                            userList.add(String.valueOf(parseObject.get("User")));
-                            spinnerList.add(String.valueOf(parseObject.get("Spinner")));
-                            typeList.add(String.valueOf(parseObject.get("Type")));
-                            companyList.add(String.valueOf(parseObject.get("Company")));
-                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
-                        }
-                    }
-                    listView.setAdapter(viewAdapter);
-                }
-
-            }
-        });
         ParseQuery<ParseObject>findParseQuery=ParseQuery.getQuery("Find");
         findParseQuery.findInBackground(new FindCallback<ParseObject>() {
             @Override
@@ -81,6 +58,30 @@ public class NewView extends AppCompatActivity {
                     }
                     listView.setAdapter(viewAdapter);
                 }
+            }
+        });
+
+        ParseQuery<ParseObject> lostParseQuery = ParseQuery.getQuery("Lost");
+        lostParseQuery.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                if (e == null) {
+                    Log.i("Mava", "Grabbed " + objects.size() + " objects");
+                    if (objects.size() > 0) {
+                        for (ParseObject parseObject : objects) {
+                            itemList.add(String.valueOf(parseObject.get("Spinner") + " Lost"));
+                            addressList.add(String.valueOf(parseObject.get("Address")));
+                            colourList.add(String.valueOf(parseObject.get("Color")));
+                            userList.add(String.valueOf(parseObject.get("User")));
+                            spinnerList.add(String.valueOf(parseObject.get("Spinner")));
+                            typeList.add(String.valueOf(parseObject.get("Type")));
+                            companyList.add(String.valueOf(parseObject.get("Company")));
+                            mobileNumberList.add(String.valueOf(parseObject.get("MobileNumber")));
+                        }
+                    }
+                    listView.setAdapter(viewAdapter);
+                }
+
             }
         });
 
